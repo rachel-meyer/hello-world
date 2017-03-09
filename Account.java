@@ -85,7 +85,7 @@ public abstract class Account {
 				interest = interest + ((SAccount) bank[i]).addInterest();
 			}
 		for (int i=0; i<bank.length; i++)
-			bank[i].withdraw(10);
+			bank[i].withdraw(10); 
 	}
 
 }
